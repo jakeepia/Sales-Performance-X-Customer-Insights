@@ -42,6 +42,12 @@ The data model connects the fact and dimension tables based on primary and forei
 - **Sales** is connected to **Customers** via the **CustomerKey**, to **Products** via the **ProductKey**, and to **ProductCategories** through the product hierarchy.
 - **Calendar** is linked to **Sales** using the **OrderDate** field, enabling time-based calculations like year-over-year sales, monthly growth, and seasonal trends.
 
+I used DAX (Data Analysis Expressions) to create custom measures, such as:
+
+- **Total Sales, Total Profit, and Last Year Sales:** These measures allowed me to accurately display financial performance and compare it across time periods.
+- **Customer Retention:** I calculated the percentage of returning customers using DAX, enabling insights into customer loyalty.
+- **Profit by Product Category:** DAX measures were used to break down profit contributions from different product categories, providing a detailed view of product performance.
+
 ## 3. Dashboard Design
 
 ![](img/dashboard_1.JPG)
