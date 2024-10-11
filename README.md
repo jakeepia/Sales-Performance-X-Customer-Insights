@@ -76,5 +76,11 @@ These KPIs provide an overview of the company's financial health and customer ac
 - **Product Performance:** Bikes are the highest-grossing category, contributing the most to overall profit, while Clothing accounts for the least. This could indicate an opportunity to improve marketing or offerings in the clothing line.
 - **Geographical Distribution:** The United States dominates sales, contributing the most revenue, followed by Australia. The company might explore expanding its market presence in Europe, particularly in Germany and France, to boost sales.
 
+## 5. Recommendations
+- **Marketing Focus on High Seasons:** Focus promotional efforts in the lead-up to June and December, as these months consistently show higher sales. These campaigns could be expanded across other months to smooth out the sales trend.
+- **Diversify Product Offerings:** While Bikes are the top-selling category, Clothing lags behind. Consider bundling clothing with other products or running specific promotions to increase its sales.
+- **Expand Geographic Focus:** Given the dominance of sales in the United States, consider expanding successful strategies to underperforming markets, particularly in Germany and Canada.
+- **Customer Retention Programs:** Given the high retention rate, investing further in loyalty programs could continue driving repeat purchases and customer engagement.
 
-
+## Conclusion
+This dashboard showcases my ability to analyze sales performance, build data models, and provide actionable insights using Power BI. The strong retention rates and clear sales trends are indicative of a healthy business, while the geographical distribution and product category performance suggest areas for strategic growth.
