@@ -24,7 +24,21 @@ This table stores key transactional data related to sales, including:
 - **ProductCategories:** Categorizes products into meaningful groups (e.g., Bikes, Accessories, Clothing).
 - **Customers:** Captures customer demographics, income level, purchase history, and other key attributes.
 
+#### Lookup Table: Calendar
+I created a Calendar table for time intelligence that includes:
+
+- **Date, Month, Quarter, Year:** These columns enable detailed time-based analysis, like comparing sales by month or calculating year-over-year changes. The Calendar table is marked as a date table in Power BI to optimize time intelligence functions.
+
+#### Data Transformation (Power Query)
+- **Column Cleanup:** Removed irrelevant columns that did not add value to the analysis.
+- **Missing Values:** Checked for and handled missing data to ensure the integrity of the final dashboard.
+
+## 2. Data Model and Relationships
 
 
+The data model connects the fact and dimension tables based on primary and foreign keys. This star schema design enabled efficient data retrieval and optimal performance in Power BI.
+
+- **Sales** is connected to **Customers** via the **CustomerKey**, to **Products** via the **ProductKey**, and to **ProductCategories** through the product hierarchy.
+- **Calendar** is linked to **Sales** using the **OrderDate** field, enabling time-based calculations like year-over-year sales, monthly growth, and seasonal trends.
 
 
