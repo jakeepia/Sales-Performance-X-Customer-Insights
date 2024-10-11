@@ -3,7 +3,7 @@
 ![](intro.JPG)
 
 ## Introduction
-In this project, I developed a Sales Performance and Customer Insights Dashboard to visualize key sales metrics and analyze customer behavior. Below is a breakdown of the workflow, data model, dashboard design, and insights derived from the analysis. 
+In this project, I developed a Sales Performance and Customer Insights Dashboard to visualize key sales metrics and analyze customer behavior. Below is a breakdown of the workflow, data model, dashboard design, and insights derived from the analysis.
 
 #### Tool Used: Power BI
 
