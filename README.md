@@ -35,10 +35,46 @@ I created a Calendar table for time intelligence that includes:
 
 ## 2. Data Model and Relationships
 
+![](img/model.JPG)
 
 The data model connects the fact and dimension tables based on primary and foreign keys. This star schema design enabled efficient data retrieval and optimal performance in Power BI.
 
 - **Sales** is connected to **Customers** via the **CustomerKey**, to **Products** via the **ProductKey**, and to **ProductCategories** through the product hierarchy.
 - **Calendar** is linked to **Sales** using the **OrderDate** field, enabling time-based calculations like year-over-year sales, monthly growth, and seasonal trends.
+
+## 3. Dashboard Design
+
+![](img/dashboard_1.JPG)
+
+I created an intuitive and interactive dashboard that allows users to explore key business metrics across multiple dimensions such as time, geography, product categories, and customer demographics.
+
+#### Top Section: Sales KPIs
+- **Total Sales:** $29.36M
+- **Last Year Sales:** $13.72M
+- **Total Profit:** $12.08M
+- **Last Year Profit:** $5.60M
+- **Total Customers:** 18K
+- **Total Orders:** 60K
+  
+These KPIs provide an overview of the company's financial health and customer activity.
+
+#### Middle Section: Sales and Customer Distribution
+- **Sales by Country:** This bar chart shows that the United States leads in sales, followed by Australia and United Kingdom.
+- **Customer Demographics:** A pie chart breaks down customers by gender (male and female).
+- **Profit by Product Category:** Most profits come from Bikes, with smaller contributions from Accessories and Clothing.
+
+#### Bottom Section: Sales Trends and Product Discounts
+- **Sales Overview:** A line and bar chart showing total sales across months for a year, highlighting strong performance in June and December.
+- **Discount Analysis:** A table provides a detailed view of product discounts, including product names, total quantities, and average discounts.
+
+## 4. Key Insights and Observations
+
+![](img/dashboard_2.JPG)
+
+- **Sales Growth:** There is a steady increase in sales from January to December, with significant spikes in June and December, indicating seasonal trends or successful promotional activities.
+- **Customer Retention:** The percentage of customers who return within 90 days remains consistently high at **99%**, and **55.8%** of customers return within three months. This demonstrates strong customer loyalty.
+- **Product Performance:** Bikes are the highest-grossing category, contributing the most to overall profit, while Clothing accounts for the least. This could indicate an opportunity to improve marketing or offerings in the clothing line.
+- **Geographical Distribution:** The United States dominates sales, contributing the most revenue, followed by Australia. The company might explore expanding its market presence in Europe, particularly in Germany and France, to boost sales.
+
 
 
